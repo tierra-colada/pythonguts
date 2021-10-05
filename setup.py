@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name='pythonguts',
-    version='0.0.1',
+    version='0.1.0',
     packages=setuptools.find_packages(),
     url='https://github.com/tierra-colada/pythonguts',
     license='MIT',
@@ -17,7 +17,7 @@ setuptools.setup(
                 'automatically find and replace function definition',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    download_url='https://github.com/tierra-colada/pythonguts/archive/refs/tags/v0.0.1.tar.gz',
+    download_url='https://github.com/tierra-colada/pythonguts/archive/refs/tags/v0.1.0.tar.gz',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
