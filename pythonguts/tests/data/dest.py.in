@@ -1,0 +1,16 @@
+class MyClass:
+    def my_method(self, i: float, j: int, k: float) -> float:
+        return 0
+
+
+def foo(i: float) -> float:
+    return i
+
+
+def bar():
+    return 0
+
+
+# this function stays unchanged
+def unchanged():
+    return 0

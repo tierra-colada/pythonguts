@@ -1,0 +1,14 @@
+class MyClass:
+    def my_method(self, i: float, j: int, k: float) -> float:
+        print('new definition')
+        return 0
+
+
+def foo(i: float) -> float:
+    print('new definition')
+    return i
+
+
+def bar():
+    print('new definition')
+    return 0
