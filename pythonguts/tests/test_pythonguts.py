@@ -1,8 +1,9 @@
+import os
 from pathlib import Path
 import shutil
-import subprocess, os, filecmp
-import unittest
+import subprocess
 import sys
+import unittest
 
 
 class test_basics(unittest.TestCase):
