@@ -5,8 +5,10 @@ and then copy/paste these changes automatically - this package may help you.
 
 There is a tool `editpy` wich we will discuss.
 
+Same tool aimed at editing `cpp` files is also available as [cppguts](https://github.com/tierra-colada/cppguts)
+
 ## The idea behind `editpy` tool
-`editpy` uses `astor` to find replaceable functions and replaces matching functions.
+`editpy` uses [astor](https://github.com/berkerpeksag/astor) to find replaceable functions and replaces matching functions.
 
 <ins>To find common function `editpy` checks:</ins>
 * are they both _functions?_
