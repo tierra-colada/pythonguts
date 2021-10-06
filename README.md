@@ -7,6 +7,13 @@ There is a tool `editpy` wich we will discuss.
 
 Same tool aimed at editing `cpp` files is also available as [cppguts](https://github.com/tierra-colada/cppguts)
 
+## Installation
+`pythonguts` is available at [PyPI](https://pypi.org/project/pythonguts/):
+
+```bash
+pip install pythonguts
+```
+
 ## The idea behind `editpy` tool
 `editpy` uses [astor](https://github.com/berkerpeksag/astor) to find replaceable functions and replaces matching functions.
 
